@@ -1,5 +1,5 @@
-const apiurl="http://www.omdbapi.com/?apikey=787edd31&t=";
-const posterApiUrl = "http://img.omdbapi.com/?apikey=787edd31&i=";
+const apiurl="https://www.omdbapi.com/?apikey=787edd31&t=";
+const posterApiUrl = "https://img.omdbapi.com/?apikey=787edd31&i=";
 const searchinput=document.querySelector(".searchbox input");
 const searchbtn=document.querySelector(".searchbox button")
 async function moviedata(title){
